@@ -1,0 +1,10 @@
+#pagination a{
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+#pagination strong 
+{
+    color: blue;
+    font-weight: bold;
+}

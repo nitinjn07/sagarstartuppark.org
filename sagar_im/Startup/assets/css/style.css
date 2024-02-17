@@ -1,0 +1,128 @@
+#pagination a{
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+#pagination strong 
+{
+    color: blue;
+    font-weight: bold;
+}
+.timeline-steps {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color:white;
+}
+
+.timeline-steps .timeline-step {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 1rem;
+  color:white;
+}
+
+@media (min-width:768px) {
+  .timeline-steps .timeline-step:not(:last-child):after {
+      content: "";
+      display: block;
+      border-top: .25rem dotted #3b82f6;
+      width: 3.46rem;
+      position: absolute;
+      left: 7.5rem;
+      top: .3125rem;
+      color:white;
+  }
+  .timeline-steps .timeline-step:not(:first-child):before {
+      content: "";
+      display: block;
+      border-top: .25rem dotted white;
+      width: 3.8125rem;
+      position: absolute;
+      right: 7.5rem;
+      top: .3125rem;
+      color:white;
+  }
+ 
+}
+
+
+
+
+.timeline-steps .timeline-content {
+  width: 8rem;
+  text-align: center;
+  
+}
+
+.timeline-steps .timeline-content .inner-circle {
+  border-radius: 1.5rem;
+  height: 1rem;
+  width: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color:white;
+}
+
+.timeline-steps .timeline-content .inner-circle:before {
+  content: "";
+  background-color: white;
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+  min-width: 3rem;
+  border-radius: 6.25rem;
+  opacity: .5;
+  color:white;
+}
+
+@media screen and (max-width:600px) {
+  .wrapper:before
+  {
+    height:450px !important;
+  }
+}
+#event_page .card 
+{
+  box-shadow: 2px 3px 5px black;
+}
+#event_page .card .card-header
+{
+  padding: 0px;
+}
+#event_page .card .card-header .event_price 
+{
+  width: 40%;
+  background:rgba(0,0,0,0.8);
+  position: relative;
+  bottom: 40px;
+  left: 0px;
+  border-radius: 0px 20px 20px 0px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+#event_img 
+{
+  width: 100%;
+  height: 300px;
+}
+#coursetype .card-body
+{
+   min-height: 250px;
+   text-align: center;
+   padding-top: 100px;
+   border-bottom: 10px solid green;
+}
+#coursetype .card-body:hover {
+  background-color: aliceblue;
+}
+#coursetype .card-body a 
+{
+  text-decoration: none;
+}

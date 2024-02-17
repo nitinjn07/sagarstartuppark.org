@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: 
+Disallow: /Dataofsagarincubationdashboard
+Disallow: /hackplus
+Disallow: /sagar_im
+Disallow: /admin-dashboard
+Allow: /sitemap.xml
+
